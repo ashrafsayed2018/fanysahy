@@ -526,3 +526,33 @@ textarea, input, select {
         margin: 7.5px -1px;
     }
 }
+
+
+
+
+#callnowbutton {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    #callnowbutton {
+        display: block;
+        position: fixed;
+        text-decoration: none;
+        z-index: 2147483647;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        font-size: 120%;
+        overflow: hidden;
+        background: #1e73be;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 1px 0px rgba(0, 0, 0, 0.18);
+    }
+}
