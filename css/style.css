@@ -556,3 +556,29 @@ textarea, input, select {
         text-shadow: 0 1px 0px rgba(0, 0, 0, 0.18);
     }
 }
+
+.social-media {
+    display: none
+}
+@media(max-width: 667px) {
+    .social-media {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 5rem;
+    }
+}
+.fa-instagram,
+.fa-whatsapp {
+    background-color: transparent;
+    font-size: 3rem;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.fa-instagram {
+    color:  #124c7d;
+
+}
+.fa-whatsapp {
+    color: rgb(5, 61, 5);
+}
